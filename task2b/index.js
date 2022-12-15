@@ -1,18 +1,18 @@
-function add(numb1, numb2) {
-  let num1 = String(numb1);
+function add(num1, numb2) {
+  // let num1 = String(numb1);
   return num1 + numb2;
 }
 
 function multiply(num1, operator, num2) {
-  num1, operator, num2;
+  return eval(num1 + operator + num2);
+  // 5'*'10
 }
 
 function hasPets(hasPet, firstName, lastName) {
   if (hasPet === "true") {
     return firstName + " " + lastName + " really does have a nice pet";
   } else {
-    return;
-    firstName + " " + lastName + " " + "has no pets";
+    return firstName + " " + lastName + " " + "has no pets";
   }
 }
 
